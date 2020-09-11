@@ -1,7 +1,9 @@
 <h1 align="center">
     <br>
     <br>
-    🌈 Beautiful FOSS 💅
+    🌈💅
+    <br>
+    Beautiful FOSS
     <br>
     <br>
 </h1>
@@ -58,7 +60,7 @@
     <li>Jim Bisenius (<a target="_blank" href="https://twitter.com/jim_bisenius">@jim_bisenius</a>)</li>
 </ul>
 <p>Currently, Beautiful FOSS lacks contributors outside its founders at Neutron Creative, but, you can help.</p>
-<p>Visit the <a target="_blank" href="https://github.com/Neutron-Creative/Singlelink/issues">issues page</a> today and create your first pull request to get featured here!</p>
+<p>Visit the <a target="_blank" href="https://github.com/Neutron-Creative/Beautiful-FOSS/issues">issues page</a> today and create your first pull request to get featured here!</p>
 <br>
 
 <h2 id="license">License</h2>

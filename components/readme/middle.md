@@ -48,7 +48,7 @@
 <br>
 
 <!-- A promotional image for your project -->
-<img src="https://via.placeholder.com/800x250" alt="Beautiful FOSS promotional graphic"/>
+<img align="center" src="https://via.placeholder.com/800x250" alt="Beautiful FOSS promotional graphic"/>
 
 <h2 id="key-features">Key Features</h2>
 <br>

@@ -1,7 +1,7 @@
 <h1 align="center">
     <br>
     <br>
-    🌈 Beautiful FOSS 
+    🌈 Beautiful FOSS 💅
     <br>
     <br>
 </h1>
@@ -9,7 +9,7 @@
 <br>
 
 <h4 align="center">
-    A boilerplate repository with filled with best-practices and guidelines for starting & scaling your next beautiful free and open-source software project.
+    Beautiful FOSS is a boilerplate repository filled with best practices and guidelines for starting and scaling your next beautiful free and open-source software project.
 </h4>
 
 <p align="center">
@@ -56,9 +56,6 @@
 <p>Beautiful FOSS was built by the following individuals.</p>
 <ul>
     <li>Jim Bisenius (<a target="_blank" href="https://twitter.com/jim_bisenius">@jim_bisenius</a>)</li>
-    <li>Andrew Boyle (<a target="_blank" href="https://twitter.com/drewzr1">@drewzr1</a>)</li>
-    <li>Navid Kabir (<a target="_blank" href="https://twitter.com/navidk0">@navidk0</a>)</li>
-    <li>Manuhe Abebe (<a target="_blank" href="https://twitter.com/manuhegabebe">@manuhegabebe</a>)</li>
 </ul>
 <p>Currently, Beautiful FOSS lacks contributors outside its founders at Neutron Creative, but, you can help.</p>
 <p>Visit the <a target="_blank" href="https://github.com/Neutron-Creative/Singlelink/issues">issues page</a> today and create your first pull request to get featured here!</p>

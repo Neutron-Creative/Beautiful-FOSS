@@ -4,14 +4,18 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
     <style type="text/css">
       * { font-family: 'Inter', sans-serif; outline: none !important; }
+      .terminal { font-family: 'Roboto Mono', 'Inter', sans-serif; }
+      .social-mark { opacity: .5; width:20px; height: auto; }
+      .social-mark:hover { opacity: 1; }
     </style>
   </head>
-  <body class="bg-gray-200 text-gray-600 leading-relaxed">
+  <body class="text-gray-500 leading-relaxed">
     <!-- Announcement banner -->
-    <div class="flex flex-row items-center justify-center p-4 md:p-2 bg-black text-white">
-      <span class="flex flex-row text-xs md:text-sm font-semibold text-gray-200">
+    <div class="flex flex-row items-center justify-center p-4 md:p-2 bg-white border border-x-0 border-top-0 border-gray-100">
+      <span class="flex flex-row text-xs md:text-sm font-semibold">
         <!-- If exciting -->
         <!-- <span class="flex mr-2 md:hidden">🎉</span>-->
         Beatiful FOSS is provided free in our mission to make the world open-source.
@@ -19,10 +23,10 @@
         <!-- <span class="flex md:hidden ml-2">🎉</span> -->
       </span>
       <span class="hidden md:flex mx-4 text-xs text-gray-400">|</span>
-      <a class="hidden md:flex text-xs md:text-sm font-semibold text-gray-200" href="https://neutroncreative.com">Learn more 👉</a>
+      <a class="hidden md:flex text-xs md:text-sm font-semibold" href="https://neutroncreative.com">Learn more 👉</a>
     </div>
     <!-- Jumbotron -->
-    <section class="w-full bg-white flex flex-col items-center justify-center">
+    <section class="w-full flex flex-col items-center justify-center">
       <!-- Container -->
       <div class="w-full max-w-5xl px-8 md:py-32">
         <h1 class="text-gray-900 text-6xl lg:text-7xl font-extrabold mb-8">Beautiful FOSS!</h2>
@@ -30,8 +34,8 @@
           A Github repository template to make your repositories <span class="text-black font-semibold">beautiful in minutes.</span>
         </p>
         <div class="flex flex-col md:flex-row items-center mt-10 space-x-4">
-          <button class="w-full md:w-auto font-semibold text-white bg-gray-900 py-3 px-6 rounded-xl">Get started</button>
-          <div class="flex flex-none bg-gray-50 text-gray-400 hover:text-gray-900 rounded-xl items-center justify-center space-x-2 px-6 py-3 border border-gray-200 w-full md:w-auto">
+          <a href="https://github.com/Neutron-Creative/Beautiful-FOSS" class="w-full md:w-auto font-semibold text-white bg-gray-900 hover:bg-gray-700  py-3 px-6 rounded-xl">Get started</a>
+          <div class="terminal flex flex-none bg-gray-50 text-gray-400 hover:text-gray-900 rounded-xl items-center justify-center space-x-2 px-6 py-3 border border-gray-200 w-full md:w-auto">
             <span>$</span>
             <span class="text-gray-900">git clone https://github.com/Neutron-Creative/Beautiful-FOSS.git</span>
           </div>
@@ -41,5 +45,85 @@
         </div>
       </div>
     </section>
+    <!-- "The Pitch" -->
+    <section class="w-full flex flex-col items-center justify-center bg-gray-100">
+      <!-- Container -->
+      <div class="w-full max-w-5xl p-8 md:py-20 items-center justify-center text-center">
+        <h2 class="font-extrabold text-gray-900 text-5xl tracking-tight mb-8">
+          Your repository needs a makeover.
+        </h2>
+        <p class="text-xl leading-relaxed font-medium mx-auto max-w-4xl">
+          The open-source community is passionate &amp; contagious, but often projects are left not getting the attention &amp; virality they deserve due to a low-quality marketing assets that leave consumers no way to find, understand, and share your project. With Beautiful FOSS, we make creating these assets simple and easy so you can build your project with confidence.
+        </p>
+      </div>
+    </section>
+    <!-- Feature 1 -->
+    <section class="w-full flex flex-col items-center justify-center">
+      <!-- Container -->
+      <div class="w-full max-w-5xl px-8 py-20 lg:py-44 pb-0 lg:pb-0">
+        <!-- 
+          Icons
+          <div class="w-12 h-12 rounded-xl bg-indigo-600 mb-8"></div>
+        -->
+        <h2 class="text-lg tracking-wide font-semibold text-indigo-600 uppercase mb-3">Stylish Readme's</h2>
+        <h3 class="text-6xl text-gray-900 font-extrabold mb-8">Beautify your Github</h3>
+        <p class="text-2xl leading-relaxed font-medium mb-6">
+          A beautiful &amp; well branded readme file will hook users in &amp; help them understand what they're looking at and how to use it.
+        </p>
+      </div>
+    </section>
+    <!-- Feature 2 -->
+    <section class="w-full flex flex-col items-center justify-center">
+      <!-- Container -->
+      <div class="w-full max-w-5xl px-8 py-20 lg:py-44 pb-0 lg:pb-0">
+        <!-- 
+          Icons
+          <div class="w-12 h-12 rounded-xl bg-indigo-600 mb-8"></div>
+        -->
+        <h2 class="text-lg tracking-wide font-semibold text-indigo-600 uppercase mb-3">Enhanced SEO &amp; Previews</h2>
+        <h3 class="text-6xl text-gray-900 font-extrabold mb-8">Get found online</h3>
+        <p class="text-2xl leading-relaxed font-medium mb-6">A beautiful &amp; well branded readme file will hook users in &amp; help them understand what they're looking at and how to use it.</p>
+      </div>
+    </section>
+    <!-- Feature 3 -->
+    <section class="w-full flex flex-col items-center justify-center">
+      <!-- Container -->
+      <div class="w-full max-w-5xl px-8 py-20 lg:py-44">
+        <!--
+          Icons
+          <div class="w-12 h-12 rounded-xl bg-indigo-600 mb-8">
+        -->
+        <h2 class="text-lg tracking-wide font-semibold text-indigo-600 uppercase mb-3">Forever free</h2>
+        <h3 class="text-6xl text-gray-900 font-extrabold mb-8">100% free, no catch.</h3>
+        <p class="text-2xl leading-relaxed font-medium mb-6">The best part about Beautiful FOSS is there's no excuse not to use it - it's entirely free! Licensed via LGPL, you're free to use this in your project and modify however you need without paying a dime.</p>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="w-full flex flex-col items-center justify-center border border-gray-100 border-x-0 border-bottom-0">
+      <!-- Container -->
+      <div class="w-full max-w-5xl px-8 py-20 flex flex-row items-center justify-center">
+        <div class="flex flex-col mr-auto">
+          <img src="https://neutroncreative.com/Sidebar-brandmark.svg" class="mb-4" style="filter:invert(1);width:145px;"/>
+          <p>Copyright ©2020 Neutron Creative Inc. All rights reserved.</p>
+        </div>
+        <ul class="flex flex-row mx-auto space-x-4">
+          <a href="https://github.com/Neutron-Creative">
+            <li class="cursor-pointer social-mark">
+              <img src="https://neutroncreative.com/github-mark.svg"/>
+            </li>
+          </a>
+          <a href="https://discord.gg/3pBM4Px">
+            <li class="cursor-pointer social-mark">
+              <img src="https://neutroncreative.com/discord-mark.svg"/>
+            </li>
+          </a>
+          <a href="https://twitter.com/neutroncreative">
+            <li class=" cursor-pointer text-sm social-mark">
+              <img src="https://neutroncreative.com/twitter-mark.svg"/>
+            </li>
+          </a>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>

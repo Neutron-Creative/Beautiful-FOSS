@@ -1,9 +1,7 @@
 <h1 align="center">
     <br>
     <br>
-    🌈💅
-    <br>
-    Beautiful FOSS
+    Beautiful FOSS!
     <br>
     <br>
 </h1>
@@ -11,7 +9,7 @@
 <br>
 
 <h4 align="center">
-    Beautiful FOSS is a boilerplate repository filled with best practices and guidelines for starting and scaling your next beautiful free and open-source software project.
+    A Github repository template to make your repositories beautiful in minutes.
 </h4>
 
 <p align="center">
@@ -39,15 +37,18 @@
 </p>
 <br>
 
-<img src="https://via.placeholder.com/800x250" alt="Beautiful FOSS promotional graphic"/>
+<img src="/assets/Beautiful-FOSS-Hero-Wide@small.png" alt="Beautiful FOSS promotional graphic"/>
 
 <h2 id="key-features">Key Features</h2>
+> Coming soon
 <br>
 
 <h2 id="get-started">Get started</h2>
+> Coming soon
 <br>
 
 <h2 id="faq">Frequently Asked Questions</h2>
+> Coming soon
 <br>
 
 <h2 id="related">Related</h2>

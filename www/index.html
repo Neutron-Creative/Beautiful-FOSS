@@ -19,8 +19,8 @@
     <meta property="twitter:description" content="A GitHub repository boilerplate to make your repositories beautiful & discoverable in minutes.">
     <meta property="twitter:image" content="https://foss.neutron.so/assets/Beautiful-FOSS-Hero.png">
     
-    <!-- Responsive device support -->>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Responsive device support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -31,14 +31,15 @@
       .terminal, .terminal * { font-family: 'Roboto Mono', 'Inter', sans-serif !important; }
       .social-mark { opacity: .5; width:20px; height: auto; }
       .social-mark:hover { opacity: 1; }
+      html, body { width: 100vw; height: auto; min-height: 100vh; }
     </style>
   </head>
-  <body class="text-gray-500 leading-relaxed">
+  <body class="w-screen min-h-screen h-auto text-gray-500 leading-relaxed">
     <!-- Announcement banner -->
     <div class="flex flex-row items-center justify-center p-4 md:p-2 bg-white border border-x-0 border-top-0 border-gray-100">
-      <span class="flex flex-row text-xs md:text-sm font-semibold">
+      <span class="flex flex-row text-xs md:text-sm font-semibold text-center items-center justify-center">
         <!-- If exciting -->
-        <!-- <span class="flex mr-2 md:hidden">🎉</span>-->
+        <!-- <span class="flex mr-2 md:hidden">🎉</span> -->
         Beatiful FOSS is provided free in our mission to make the world open-source.
         <!-- If exciting -->
         <!-- <span class="flex md:hidden ml-2">🎉</span> -->
@@ -49,14 +50,14 @@
     <!-- Jumbotron -->
     <section class="w-full flex flex-col items-center justify-center">
       <!-- Container -->
-      <div class="w-full max-w-5xl px-8 md:py-32">
+      <div class="w-full max-w-5xl p-8 md:py-32 flex flex-col items-center justify-center text-center">
         <h1 class="text-gray-900 text-6xl lg:text-7xl font-extrabold mb-8">Beautiful FOSS!</h2>
         <p class="text-xl lg:text-2xl font-medium">
           A Github repository template to make your repositories <span class="text-black font-semibold">beautiful in minutes.</span>
         </p>
-        <div class="flex flex-col md:flex-row items-center mt-10 space-x-4">
-          <a href="https://github.com/Neutron-Creative/Beautiful-FOSS" class="w-full md:w-auto font-semibold text-white bg-blue-600 hover:bg-blue-500  py-3 px-6 rounded-xl">Get started</a>
-          <div class="terminal flex flex-none bg-gray-50 text-gray-400 hover:text-gray-900 rounded-xl items-center justify-center space-x-2 px-6 py-3 border border-gray-200 w-full md:w-auto">
+        <div class="flex flex-col md:flex-row items-center mt-10 space-x-4 w-full md:justify-center">
+          <a href="https://github.com/Neutron-Creative/Beautiful-FOSS" class="w-full text-center md:w-auto font-semibold text-white bg-blue-600 hover:bg-blue-500  py-3 px-6 rounded-xl">Get started</a>
+          <div class="hidden terminal md:flex flex-none bg-gray-50 text-gray-400 hover:text-gray-900 rounded-xl items-center justify-center space-x-2 px-6 py-3 border border-gray-200 w-full md:w-auto">
             <span>$</span>
             <span class="text-gray-900">git clone https://github.com/Neutron-Creative/Beautiful-FOSS.git</span>
           </div>
@@ -161,9 +162,9 @@
         <h2 class="text-lg tracking-wide font-semibold text-blue-600 uppercase mb-3">Forever free</h2>
         <h3 class="text-6xl text-gray-900 font-extrabold mb-8">100% free, no catch.</h3>
         <p class="text-2xl leading-relaxed font-medium mb-10">The best part about Beautiful FOSS is there's no excuse not to use it - it's entirely free! Licensed via LGPL, you're free to use this in your project and modify however you need without paying a dime.</p>
-        <div class="flex flex-col md:flex-row items-center space-x-4">
-          <a href="https://github.com/Neutron-Creative/Beautiful-FOSS" class="w-full md:w-auto font-semibold text-white bg-blue-600 hover:bg-blue-500  py-3 px-6 rounded-xl">Get started</a>
-          <div class="terminal flex flex-none bg-gray-50 text-gray-400 hover:text-gray-900 rounded-xl items-center justify-center space-x-2 px-6 py-3 border border-gray-200 w-full md:w-auto">
+        <div class="flex flex-col md:flex-row items-center space-x-4 w-full items-center justify-center">
+          <a href="https://github.com/Neutron-Creative/Beautiful-FOSS" class="text-center w-full md:w-auto font-semibold text-white bg-blue-600 hover:bg-blue-500  py-3 px-6 rounded-xl">Get started</a>
+          <div class="terminal hidden md:flex flex-none bg-gray-50 text-gray-400 hover:text-gray-900 rounded-xl items-center justify-center space-x-2 px-6 py-3 border border-gray-200 w-full md:w-auto">
             <span>$</span>
             <span class="text-gray-700">git clone https://github.com/Neutron-Creative/Beautiful-FOSS.git</span>
           </div>

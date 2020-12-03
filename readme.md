@@ -41,14 +41,44 @@
 
 <h2 id="key-features">Key Features</h2>
 
-> Coming soon
+1. **Beautiful & easy-to-understand readme files:**<br/>
+	Tired of an ugly, hard to undestand readme file? Update your readme today with one of our easy to customize pre-made templates and never have someone pass up on your project again due to a poor-quality readme!
+2. **Landing page with optimized SEO:**<br/>
+	Every project needs a landing page with optimized SEO to be discoverable online. Without it, it's unlikely users will find your project on Google. Use one of our easy to customize templates and get on Google in minutes!
+3. **Opengraph images:**<br/>
+	Ever post about your project on Twitter, Facebook, Discord, etc. and notice it didn't have a fancy preview like other websites? We make it easy to build opengraph preview for every platform with included Figma templates - so you can get more share's instantly!
+4. **Self-promotion links**:<br/>
+	Every open-source project needs some spotlight, which is why we included a list of helpful &amp; easy-to-post self-promotion links! Upload your project in minutes, build backlinks, and find new users across social media!
 
 <br>
 
 <h2 id="get-started">Get started</h2>
 
-> Coming soon
+Getting started with Beautiful FOSS is quick and easy.
+<br/>
+1. **To begin, clone the project locally:**
 
+	> git clone https://github.com/Neutron-Creative/Beautiful-FOSS.git && cd Beautiful-FOSS
+
+2. **Now, select copy your desired assets to your new project:**<br/>
+
+	For readme's, see /components/readme
+
+	> cp components/readme/readme-x.md <Your desired location>
+
+	For landing page's, see /components/landing-page
+
+	> cp components/landing-page/lp-x.html <Your desired location>
+
+	For Open Graph image's, see /components/open-graph
+
+	> cp components/open-graph/og-x.fig
+
+3. **Finally, replace the template content with your project information:**
+	For text files (such as the readme &amp; landing pages), you should find content surrounded brackets similar to handlebars syntax. You can find &amp; replace this infomration with regex, or simply replace it by hand if you're unfamiliar.
+	For non-text files (such as the Figma Open Graph images), simply open those files and manually replace the text included with your new content.
+
+**Notice:** An auto asset-generating script is planned &amp; on the roadmap, however we currently lack resources &amp; contributors to help. If this is something that would help you, please consider making a pull-request or donating to support project development!
 <br>
 
 <h2 id="faq">Frequently Asked Questions</h2>
@@ -58,7 +88,7 @@
 <br>
 
 <h2 id="related">Related</h2>
-<p><a target="_blank" href="https://github.com/Neutron-Creative/Beautiful-FOSS">Beautiful FOSS</a> is Neutron Creative product, created and maintained free of charge in the mission of open-source. To learn more about our mission, visit our website at <a href="https://neutroncreative.com" target="_blank">neutroncreative.com</a></p>
+<p><a target="_blank" href="https://foss.neutron.so">Beautiful FOSS</a> is Neutron Creative product, created and maintained free of charge in the mission of open-source. To learn more about our mission, visit our website at <a href="https://neutroncreative.com" target="_blank">neutroncreative.com</a></p>
 <br>
 
 <h2 id="credits">Credits</h2>

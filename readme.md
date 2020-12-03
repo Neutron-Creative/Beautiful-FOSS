@@ -31,8 +31,8 @@
   <a href="#key-features">Key features</a> •
   <a href="#get-started">Get started</a> •
   <a href="#faq">Frequently asked questions</a> •
-  <a href="#credits">Credits</a> •
   <a href="#related">Related</a> •
+  <a href="#credits">Credits</a> •
   <a href="#license">License</a>
 </p>
 <br>
@@ -40,15 +40,21 @@
 <img src="/assets/Beautiful-FOSS-Hero-Wide@small.png" alt="Beautiful FOSS promotional graphic"/>
 
 <h2 id="key-features">Key Features</h2>
+
 > Coming soon
+
 <br>
 
 <h2 id="get-started">Get started</h2>
+
 > Coming soon
+
 <br>
 
 <h2 id="faq">Frequently Asked Questions</h2>
+
 > Coming soon
+
 <br>
 
 <h2 id="related">Related</h2>

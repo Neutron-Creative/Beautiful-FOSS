@@ -15,7 +15,8 @@
     "version": "auto-changelog -p && git add changelog.md"
   },
   "auto-changelog": {
-    "output": "changelog.md"
+    "output": "changelog.md",
+  	"commitLimit": false
   },
   "repository": {
     "type": "git",

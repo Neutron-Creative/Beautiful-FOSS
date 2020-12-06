@@ -1,0 +1,41 @@
+{
+  "name": "beautiful-foss",
+  "version": "0.2.0",
+  "description": "A github repository template to make your repositories beautiful & discoverable in minutes.",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "prompts": "^2.4.0"
+  },
+  "devDependencies": {
+    "auto-changelog": "^2.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "auto-changelog -p && git add changelog.md"
+  },
+  "auto-changelog": {
+    "output": "changelog.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neutron-Creative/Beautiful-FOSS.git"
+  },
+  "keywords": [
+    "OSS",
+    "open-source",
+    "repository",
+    "template",
+    "boilerplate",
+    "readme",
+    "open-graph",
+    "website",
+    "landing-page"
+  ],
+  "author": "Neutron Creative Inc.",
+  "license": "LGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Neutron-Creative/Beautiful-FOSS/issues"
+  },
+  "homepage": "https://github.com/Neutron-Creative/Beautiful-FOSS#readme"
+}
